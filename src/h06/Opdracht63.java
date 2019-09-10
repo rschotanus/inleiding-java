@@ -12,7 +12,7 @@ public class Opdracht63 extends Applet {
         a = 8;
         b = 8;
         c = 20;
-        uitkomst = (a + b) / c;
+        uitkomst = (a + b) - c;
     }
 
     public void paint(Graphics g) {
