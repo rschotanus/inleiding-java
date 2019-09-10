@@ -1,0 +1,14 @@
+Mechine taal: Machinetaal is een taal waarin instructies geschreven zijn die de processor van een computer direct kan uitvoeren. Een programma bestaat in machinetaal uit een reeks woorden, meestal van 8 (een byte), 16, 32 of 64 bits. Elk woord staat voor een specifieke actie die de processor dient uit te voeren. Wanneer de computer in het programma dat hij aan het uitvoeren is bijvoorbeeld de byte 00001010 tegenkomt dan kan dit betekenen dat hij de inhoud van register 1 bij register 0 moet optellen.
+
+Welke 3 hulpmiddelen heb je nodig om te progammeren:
+1.	Programmeer taal
+2.	Programmeer tools(phpstorm,intelliJ,C++,C#)
+3.	Java of JavaScript
+
+Hoe herken je opdrachten in de broncode:
+Een lijn teksten dat een opdracht uit voert oftewel een (string)
+
+Waar dienen de import opdrachten voor?:
+Zodat je gegevens uit java kunt halen of je kan een ander document samen voegen met je main document zodat ze samen gaan werken
+Wat is een method?:
+dat is een functie van een klasse
