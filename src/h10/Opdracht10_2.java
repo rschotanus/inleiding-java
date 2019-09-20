@@ -5,7 +5,7 @@ import java.applet.*;
 import java.awt.event.*;
 
 
-public class Opdracht10_1 extends Applet {
+public class Opdracht10_2 extends Applet {
 
     int leeftijd;
     TextField tekstvak;
@@ -35,6 +35,10 @@ public class Opdracht10_1 extends Applet {
             leeftijd = Integer.parseInt( s );
             if ( leeftijd > 20 ) {
                 tekst = "het getal is groter.";
+                repaint();
+            }
+            else {
+                tekst = "het getal is kleiner.";
                 repaint();
             }
         }
