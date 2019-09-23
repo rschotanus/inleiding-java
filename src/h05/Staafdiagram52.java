@@ -19,9 +19,9 @@ public class Staafdiagram52 extends Applet {
 
     public void paint(Graphics g) {
         //niet de 2 veranderen
-        Valery = 60                                       * 2;
+        Valery = 10                                       * 2;
         Hans = 40                                         * 2;
-        Jeroen = 100                                      * 2;
+        Jeroen = 50                                      * 2;
 
         Beginlijn = 250;
 
