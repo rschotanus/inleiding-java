@@ -14,7 +14,7 @@ public class Opdracht11_2 extends Applet {
 
         while(teller > 9) {
             y += 20;
-            g.drawString("" + teller, 305, y );
+            g.drawString("" + teller, 20, y );
             teller--;
         }
     }
