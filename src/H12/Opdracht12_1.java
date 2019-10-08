@@ -4,19 +4,26 @@ import java.awt.*;
 import java.applet.*;
 
 public class Opdracht12_1 extends Applet {
-    double[] salaris = { 100.0, 200.0, 500.0, 400.0, 300.0 };
-    double maximum;
+    double gemiddelde[];
+    double uitkomst[];
+    double getal;
+    double avg;
 
     public void init() {
-        maximum = salaris[0];
-        for (int teller = 0; teller < salaris.length; teller ++) {
-            if(salaris[teller] > maximum) {
-                maximum = salaris[teller];
-            }
+        gemiddelde = new double[10];
+        uitkomst = new double[10];
+        getal = 0.00;
+        for (int teller = 0; teller < gemiddelde.length; teller++) {
+            gemiddelde[teller] = teller + 1;
+            getal += gemiddelde[teller];
         }
+        avg = (getal / gemiddelde.length);
     }
 
-    public void paint(Graphics g)  {
-        g.drawString("Het maximum is: " + maximum, 50, 20);
+    public void paint(Graphics g) {
+        for (int teller = 0; teller < gemiddelde.length; teller++) {
+            g.drawString("" + gemiddelde[teller], 50, 20 * teller + 20);
+        }
+        g.drawString("gemiddelde = " + avg, 120, 20);
     }
 }
