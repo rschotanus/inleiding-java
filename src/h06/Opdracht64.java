@@ -8,6 +8,7 @@ public class Opdracht64 extends Applet {
     double a, b, c, uitkomst;
 
 
+
     public void init() {
         a = 5.9;
         b = 6.3;

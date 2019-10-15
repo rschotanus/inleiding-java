@@ -2,7 +2,6 @@ package H13;
 
 import javax.swing.*;
 import java.awt.*;
-import java.applet.*;
 
 public class Opdracht13_1 extends JApplet {
 

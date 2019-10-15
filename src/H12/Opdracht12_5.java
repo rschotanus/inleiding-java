@@ -15,6 +15,7 @@ public class Opdracht12_5 extends Applet {
     int zoeken;
     Button okknop;
 
+
     @Override
     public void init() {
         okknop = new Button("Ok_knop");
